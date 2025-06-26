@@ -1,3 +1,9 @@
+/* Projeto: Geração de relatório de produção por município
+   Linguagem: Progress 4GL
+   Desenvolvido por: Liliane Becker
+   Objetivo: Ler códigos de procedimentos e gerar relatório de produção agrupado por cidade
+*/
+
 DEF STREAM ST-ARQUIVO.
 DEF VAR C-ARQUIVO      AS CHAR INITIAL "" NO-UNDO.
 DEF VAR w01-tipo       AS INT FORMAT "9".
